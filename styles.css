@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
 .container {
@@ -20,8 +21,11 @@ ul{
   padding: 0;
   margin: 0;
   color: #E5E7EB;
+  gap: 20px;
+  font-size: 18px;
 }
 
 h2 {  
   color: #F9FAF8;
+  font-size: 24px;
 }

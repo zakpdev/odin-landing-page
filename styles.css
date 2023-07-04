@@ -16,6 +16,14 @@ body {
   background-color: #1F2937;
 }
 
+.hero {
+  display: flex;
+}
+
+.hero-text {
+  text-align: start;
+}
+
 ul{
   list-style-type: none;
   display: flex;

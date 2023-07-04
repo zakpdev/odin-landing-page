@@ -94,12 +94,22 @@ body {
 
 .cta-content {
   display: flex;
+  align-items: center;
   gap: 40px;
 }
 
 .cta-text {
   border: 5px solid;
 }
+
+.cta-content p {
+  text-align: start;
+}
+
+
+/* .cta-content button {
+  align-self: center;
+} */
 
 ul{
   list-style-type: none;

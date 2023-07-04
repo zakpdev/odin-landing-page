@@ -18,10 +18,35 @@ body {
 
 .hero {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  background-color: #1F2937;
 }
 
 .hero-text {
   text-align: start;
+  flex-basis: 400px;
+}
+
+.hero-pic > img {
+  width: 500px;
+  height: auto;
+}
+
+.hero-text > p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.hero-text > button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
 }
 
 ul{
@@ -32,6 +57,13 @@ ul{
   color: #E5E7EB;
   gap: 20px;
   font-size: 18px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  margin-bottom: 0;
 }
 
 h2 {  

@@ -65,6 +65,26 @@ body {
   border-radius: 30px;
 }
 
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.quote-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  align-self: start;
+}
+
+.attribution {
+  align-self: end;
+}
+
 ul{
   list-style-type: none;
   display: flex;

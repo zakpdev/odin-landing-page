@@ -85,6 +85,22 @@ body {
   align-self: end;
 }
 
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid;
+}
+
+.cta-content {
+  display: flex;
+  gap: 40px;
+}
+
+.cta-text {
+  border: 5px solid;
+}
+
 ul{
   list-style-type: none;
   display: flex;

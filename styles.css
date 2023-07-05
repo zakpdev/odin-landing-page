@@ -89,21 +89,44 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 5px solid;
+  padding: 90px;
 }
 
 .cta-content {
   display: flex;
   align-items: center;
-  gap: 40px;
+  gap: 70px;
+  background-color: #3882F6;
+  padding: 40px 60px;
+  border-radius: 8px;
+}
+
+/* .cta-text {
+  border: 5px solid;
+} */
+
+.cta-content > p,h2 {
+  text-align: start;
 }
 
 .cta-text {
-  border: 5px solid;
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
-.cta-content p {
-  text-align: start;
+.cta-text > p,h2 {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+}
+
+.cta-content > button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 5px 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #F9FAF8;
 }
 
 .footer {

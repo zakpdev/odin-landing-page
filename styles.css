@@ -106,6 +106,12 @@ body {
   text-align: start;
 }
 
+.footer {
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
 
 /* .cta-content button {
   align-self: center;

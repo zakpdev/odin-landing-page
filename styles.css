@@ -75,14 +75,23 @@ body {
 .quote-content {
   display: flex;
   flex-direction: column;
+  padding: 90px 0;
 }
 
 .quote-text {
   align-self: start;
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
 }
 
 .attribution {
   align-self: end;
+  font-size: 24px;
+  color: #1F2937;
+  font-weight: bold;
+  margin: 10px 0 0 0;
 }
 
 .call-to-action {
